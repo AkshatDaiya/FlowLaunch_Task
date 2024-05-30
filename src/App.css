@@ -1,0 +1,53 @@
+* {
+  font-family: "Hind", sans-serif;
+}
+
+.focusRemove input:focus {
+  outline: 2px solid #eef7ff;
+}
+
+@media screen and (max-width:1261px) {
+  .imageSizing img {
+    width: 260px;
+    height: 260px;
+  }
+
+  .imageSizing div {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width:1061px) {
+  .imageSizing {
+    flex-direction: column;
+    align-items: center;
+    overflow: scroll;
+  }
+}
+
+@media screen and (max-width:790px){
+  .giveWidth{
+    width: 400px;
+    left: 132px;
+  }
+}
+
+@media screen and (max-width:622px){
+  .giveWidth{
+    left: 132px !important;
+  }
+}
+
+@media screen and (max-width:550px){
+  .giveWidth{
+    left: 90px !important;
+    width: 340px;
+  }
+}
+
+@media screen and (max-width:430px){
+  .giveWidth{
+    left: 60px !important;
+  }
+}
